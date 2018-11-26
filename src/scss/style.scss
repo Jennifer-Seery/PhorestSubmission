@@ -322,7 +322,67 @@ a:active {
 
 .text{
 	position: absolute;
-	top: 90px;
+	top: 70px;
 	left: 95px;
 }
+
+.endboxButton {
+    position: absolute;
+    top: 2375px;
+    right: 700px;
+    z-index: 2;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.infoBox{
+    position: absolute;
+    top: 2800px;
+    border: none;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    height: 30%;
+    width: 100%;
+    background-color:#D3D3D3;
+}
+
+.company{
+    position: absolute;
+    top: 2850px;
+    left: 300px;
+}
+
+.product{
+    position: absolute;
+    top: 2850px;
+    left: 550px; 
+}
+
+.legal{
+    position: absolute;
+    top: 2850px;
+    left: 750px;
+}
+
+
+.endLogo{
+  position: absolute;
+  width:10%;
+  height:18%;
+  top:2850px;
+  left:1100px;
+}
+
+
 
