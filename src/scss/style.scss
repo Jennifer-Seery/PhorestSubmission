@@ -1,0 +1,328 @@
+$bg-color: white;
+
+body {
+    background: $bg-color;
+}
+
+
+.logo{
+  position: absolute;
+  width:10%;
+  height:18%;
+  margin-top: 40px;
+  margin-left: 80px;
+  }
+
+ .salon-image{
+ 	width: 900px;
+ 	height: 800px;
+ 	margin-left: 550px;
+ 	margin-top: 0px;
+    z-index: -1;
+    }
+
+.landing-heading{
+	margin-top:150px;
+	margin-left: 100px;
+	max-width: 450px;
+
+}
+
+.landing-paragraph{
+	max-width: 450px;
+	margin-left: 100px;
+	font-size: 20px;
+}
+
+.menu{
+	margin-top: -700px;
+	margin-left: 350px;
+	font-size: 19px;
+	color: black;
+}
+
+a + a {
+padding-left: 10px;
+}
+
+a{
+	color:black;
+}
+
+a:active {
+    color: green;
+}
+
+.bottom-signup{
+	margin-left: 100px;
+	margin-top: 15px;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.top-signup{
+	position: absolute;
+	top: 140px;
+	right: 150px;
+	z-index: 2;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.feature-heading{
+	text-align: center;
+	margin-top: 350px;
+}
+
+.feature-intro{
+	text-align: center;
+}
+
+#box1 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px rgba(216,216,216,0.5);
+    text-align: center;
+    width: 250px;
+    margin-left: 300px;
+    position: absolute;
+    top: 1050px;
+    border-radius: 8px;
+    border-color: rgba(216,216,216,0.25);
+}
+#box2 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px rgba(216,216,216,0.5);
+    text-align: center;
+    width: 250px;
+    margin-left: 600px;
+    position: absolute;
+    top: 1050px;
+    border-radius: 8px;
+    border-color: rgba(216,216,216,0.25);
+    background-color: #4CAF50; /* Green */  
+}
+#box3 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px rgba(216,216,216,0.25);
+    text-align: center;
+    width: 250px;
+    margin-left: 900px;
+    position: absolute;
+    top: 1050px;
+    border-radius: 8px;
+    border-color: rgba(216,216,216,0.25);
+}
+
+
+.blog-heading{
+	text-align: center;
+	margin-top: 350px;
+}
+
+.blog-intro{
+	text-align: center;
+}
+
+#blogbox1 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px rgba(216,216,216,0.5);
+    text-align: center;
+    width: 250px;
+    margin-left: 300px;
+    border-radius: 8px;
+    border-color: rgba(216,216,216,0.25);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 1500px;
+
+}
+#blogbox2 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px rgba(216,216,216,0.5);
+    text-align: center;
+    width: 250px;
+    margin-left: 700px;
+    border-radius: 8px;
+    border-color: rgba(216,216,216,0.25);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 1500px;
+
+}
+#blogbox3 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px rgba(216,216,216,0.5);
+    text-align: center;
+    width: 250px;
+    margin-left: 700px;
+    border-radius: 8px;
+    border-color: rgba(216,216,216,0.25);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 1820px;
+
+
+  
+
+}
+#blogbox4 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px rgba(216,216,216,0.5);
+    text-align: center;
+    width: 250px;
+    margin-left: 300px;
+    border-radius: 8px;
+    border-color: rgba(216,216,216,0.25);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 1820px;
+
+}
+
+
+.salonImage{
+	width:350px;
+	height:300px;
+    z-index:-1
+}
+
+.blog1{
+	color:black;
+	position: absolute;
+    top: 90px;
+    z-index:999999 !important;
+    border-radius: 8px;
+    margin-left: 45px;
+    color: white;
+    font-size: 40px;
+    text-align: left;
+
+}
+
+.blog2{
+	color:white;
+	position: absolute;
+    top: 90px;
+    z-index:999999 !important;
+    border-radius: 8px;
+    margin-left: 45px;
+    font-size: 40px;
+    text-align: left;
+}
+
+.blog3{
+	color:white;
+	position: absolute;
+    top: 90px;
+    z-index:999999 !important;
+    border-radius: 8px;
+    margin-left: 45px;
+    font-size: 40px;
+    text-align: left;
+
+}
+
+.blog4{
+	color:white;
+	position: absolute;
+    top: 90px;
+    z-index:999999 !important;
+    border-radius: 8px;
+    margin-left: 45px;
+    font-size: 40px;
+    text-align: left;
+
+}
+
+
+.blog1Info{
+	position: absolute;
+    top: 1725px;
+    color: white;
+    font-size: 25px;
+    max-width: 250px;
+    margin-left: 350px;
+}
+.blog2Info{
+	position: absolute;
+    top: 1725px;
+    color: white;
+    font-size: 25px;
+    max-width: 250px;
+    margin-left: 750px;
+}
+.blog3Info{
+	position: absolute;
+    top: 2025px;
+    color: white;
+    font-size: 25px;
+    max-width: 250px;
+    margin-left: 750px;
+}
+.blog4Info{
+	position: absolute;
+    top: 2025px;
+    color: white;
+    font-size: 25px;
+    max-width: 250px;
+    margin-left: 350px;
+}
+
+#endbox {
+    border: 1px solid;
+    padding-top: 15px;
+    box-shadow: 5px 10px rgba(216,216,216,0.5);
+    text-align: center;
+    width: 250px;
+    margin-left: 330px;
+    position: absolute;
+    top: 2250px;
+    border-radius: 8px;
+    border-color: rgba(216,216,216,0.25);
+    width: 700px;
+    height: 200px;
+    font-size: 30px;
+
+}
+
+.text{
+	position: absolute;
+	top: 90px;
+	left: 95px;
+}
+
